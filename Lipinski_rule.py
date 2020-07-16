@@ -23,9 +23,13 @@ st.markdown("> A rule of thumb to evaluate druglikeness or determine if a chemic
 st.header("Components of the rule")
 st.markdown(">1. **No more than 5** hydrogen bond donors (the total number of nitrogen–hydrogen and oxygen–hydrogen bonds)\n2. **No more than 10** hydrogen bond acceptors (all nitrogen or oxygen atoms)\n3. A molecular mass **less than 500 daltons**\n4. An octanol-water partition coefficient (log P) that **does not exceed 5**")
 
+st.header("What are SMILES?")
+st.markdown(">The **simplified molecular-input line-entry system** (SMILES) is a specification in the form of a line notation for describing the structure of chemical species using short ASCII strings.")
+st.markdown("**Example**: Melotonin Molecule")
+st.markdown(">CC(=O)NCCC1=CNc2c1cc(OC)cc2CC(=O)NCCc1c[nH]c2ccc(OC)cc12")
 
 # Take User Input Smile
-st.header("Input SMILE")
+st.header("Input SMILES")
 user_smile = st.text_input("Enter text below")
 
 # Calculation
