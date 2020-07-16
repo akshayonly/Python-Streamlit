@@ -1,10 +1,24 @@
 # Streamlit Web-apps
 
-This repo contain web-apps build using **Streamlit**.
+This repo contain web-apps build using **Streamlit** framework (https://www.streamlit.io/).
 
-Python scripts:
+**How to Install:**
 
-- ```python
+- ```bash
+  pip install streamlit
+  ```
+
+**How to run:**
+
+- ```bash
+  streamlit run script_name.py
+  ```
+
+------
+
+**Scripts in Repository:**
+
+- ```
   Coronavirur_Counter.py
   ```
 
